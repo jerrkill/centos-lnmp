@@ -14,6 +14,5 @@ Centos 下一键配置 lnmp 环境，后面准备再写个不用编译的
 * 邮箱 2273716951@qq.com
 
 # 博客文章
-(记一次 写 CentOS 下 lnmp 一键编译脚本的经历)[https://learnku.com/articles/23776]
-
+[记一次 写 CentOS 下 lnmp 一键编译脚本的经历](https://learnku.com/articles/23776)
 
