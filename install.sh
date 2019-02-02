@@ -191,12 +191,12 @@ PrivateTmp=true
 WantedBy=multi-user.target" > /usr/lib/systemd/system/nginx.service
 
 	#echo -e "\nexport PATH=$PATH:${nginx_dir}/sbin" >> /etc/profile
-	echo -e "if ! echo \${PATH} | /bin/grep -q ${nginx_dir}/bin ; then
-	PATH=${nginx_dir}/bin:\${PATH}
+	echo -e "if ! echo \${PATH} | /bin/grep -q ${nginx_dir}/sbin ; then
+	PATH=${nginx_dir}/sbin:\${PATH}
 fi" > /etc/profile.d/nginx.sh
 
-	echo -e "if ( \"\${path}\" !~ *${nginx_dir}/bin* ) then
-set path = ( ${nginx_dir}/bin $path )
+	echo -e "if ( \"\${path}\" !~ *${nginx_dir}/sbin* ) then
+set path = ( ${nginx_dir}/sbin $path )
 endif" > /etc/profile.d/nginx.csh
 
 	source /etc/profile
