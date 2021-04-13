@@ -14,4 +14,3 @@ If the internet is slow, you can download the relevant tar.gz package and copy i
 * Email 2273716951@qq.com
 
 # Blog
-[Remember the experience of writing lnmp one-click compilation script under CentOS] (https://learnku.com/articles/23776)
