@@ -11,6 +11,6 @@ If the internet is slow, you can download the relevant tar.gz package and copy i
 # Feedback
 * The first spear tree
 * Corrections, feedback, or suggestions are welcome
-* Email 2273716951@qq.com
+* Email
 
 # Blog
